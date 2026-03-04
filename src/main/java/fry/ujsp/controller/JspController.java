@@ -21,4 +21,8 @@ public class JspController {
         model.addAttribute("items", items);
         return "hello";
     }
+    @GetMapping("/1")  // 访问根路径
+    public String index(Model model) {
+        return "1";
+    }
 }
