@@ -11,6 +11,10 @@ import java.util.List;
 
 @Controller  // 注意这里是 @Controller，不是 @RestController
 public class JspController {
+    @GetMapping("/")  // 访问根路径
+    public String index(Model model) {
+        return "index";
+    }
     @GetMapping("/hello")
     public String hello(@RequestParam(name = "name", defaultValue = "访客") String name,
                         Model model) {
@@ -21,8 +25,16 @@ public class JspController {
         model.addAttribute("items", items);
         return "hello";
     }
-    @GetMapping("/1")  // 访问根路径
-    public String index(Model model) {
+    @GetMapping("/1")
+    public String i1(Model model) {
         return "1";
+    }
+    @GetMapping("/2")
+    public String i2(Model model) {
+        return "2";
+    }
+    @GetMapping("/3")
+    public String i3(Model model) {
+        return "3";
     }
 }
