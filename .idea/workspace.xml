@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93b4130f-6c82-41ff-847b-1c4525c3e011" name="更改" comment="JSP语法基础">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="93b4130f-6c82-41ff-847b-1c4525c3e011" name="更改" comment="示例与环境" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,15 +79,6 @@
       <recent name="D:\Users\Admin\Documents\IdeaProjects\ujsp\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="UjspApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="ujsp" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="fry.ujsp.UjspApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -109,7 +97,7 @@
       <workItem from="1772585721285" duration="2893000" />
       <workItem from="1772588655343" duration="1148000" />
       <workItem from="1772957784958" duration="83000" />
-      <workItem from="1772958803553" duration="816000" />
+      <workItem from="1772958803553" duration="903000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <option name="closed" value="true" />
@@ -159,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772589098428</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="示例与环境">
+      <option name="closed" value="true" />
+      <created>1772959641585</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1772959641585</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +181,7 @@
     <MESSAGE value="在 Spring Boot 中使用 JSP 项目起始" />
     <MESSAGE value="适配JSP并添加示例" />
     <MESSAGE value="JSP语法基础" />
-    <option name="LAST_COMMIT_MESSAGE" value="JSP语法基础" />
+    <MESSAGE value="示例与环境" />
+    <option name="LAST_COMMIT_MESSAGE" value="示例与环境" />
   </component>
 </project>
