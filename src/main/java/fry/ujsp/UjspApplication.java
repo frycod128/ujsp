@@ -24,8 +24,8 @@ public class UjspApplication extends SpringBootServletInitializer {
 
     private static void openBrowserAfterStart() {
         try {
-            // 延迟2秒，等待应用完全启动
-            Thread.sleep(2000);
+            // 延迟0.2秒，等待应用完全启动
+            Thread.sleep(200);
 
             String url = "http://localhost:8080";
             String os = System.getProperty("os.name").toLowerCase();
