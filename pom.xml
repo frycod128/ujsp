@@ -1,74 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Maven项目对象模型(POM)文件，定义了项目的基本信息和依赖关系 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <!-- 指定POM模型的版本 -->
     <modelVersion>4.0.0</modelVersion>
+    <!-- 继承Spring Boot的父POM，提供默认配置 -->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.5.11</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
-    <groupId>fry</groupId>
-    <artifactId>ujsp</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>ujsp</name>
-    <description>ujsp</description>
-    <url/>
+
+    <!-- 定义项目的基本信息 -->
+    <groupId>fry</groupId>  <!-- 项目组织ID -->
+    <artifactId>ujsp</artifactId>  <!-- 项目唯一标识ID -->
+    <version>0.0.1-SNAPSHOT</version>  <!-- 项目版本号 -->
+    <name>ujsp</name>  <!-- 项目名称 -->
+    <description>ujsp</description>  <!-- 项目描述 -->
+    <url/>  <!-- 项目网站URL -->
+    <!-- 项目许可证信息 -->
     <licenses>
-        <license/>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
     </licenses>
-    <developers>
-        <developer/>
-    </developers>
-    <scm>
-        <connection/>
-        <developerConnection/>
-        <tag/>
-        <url/>
-    </scm>
+    <!-- 项目属性配置 -->
     <properties>
-        <java.version>17</java.version>
+        <java.version>17</java.version>  <!-- 使用的Java版本 -->
     </properties>
+    <!-- 项目依赖配置 -->
     <dependencies>
+        <!-- Spring Boot Web启动器，提供Web开发所需依赖 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        <!-- 嵌入式Tomcat的JSP支持 -->
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-jasper</artifactId>
-            <scope>provided</scope>
+            <scope>provided</scope>  <!-- 作用域为provided，表示由容器提供 -->
         </dependency>
+        <!-- JSTL API依赖 -->
         <dependency>
             <groupId>jakarta.servlet.jsp.jstl</groupId>
             <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
             <version>3.0.0</version>
         </dependency>
+        <!-- JSTL实现依赖 -->
         <dependency>
             <groupId>org.glassfish.web</groupId>
             <artifactId>jakarta.servlet.jsp.jstl</artifactId>
             <version>3.0.1</version>
         </dependency>
+        <!-- Servlet API依赖 -->
         <dependency>
             <groupId>jakarta.servlet</groupId>
             <artifactId>jakarta.servlet-api</artifactId>
             <version>6.0.0</version>
-            <scope>provided</scope>
+            <scope>provided</scope>  <!-- 作用域为provided，表示由容器提供 -->
         </dependency>
+        <!-- JSP API依赖 -->
         <dependency>
             <groupId>jakarta.servlet.jsp</groupId>
             <artifactId>jakarta.servlet.jsp-api</artifactId>
             <version>3.1.1</version>
-            <scope>provided</scope>
+            <scope>provided</scope>  <!-- 作用域为provided，表示由容器提供 -->
         </dependency>
     </dependencies>
+    <!-- 构建配置 -->
     <build>
         <plugins>
+            <!-- Spring Boot Maven插件，用于构建可执行jar -->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
     </build>
+    <!-- 项目打包方式为war -->
     <packaging>war</packaging>
 </project>
