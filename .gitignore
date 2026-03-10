@@ -9,7 +9,6 @@
 /dataSources/
 /dataSources.local.xml
 
-markdown/HELP.md
 target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
