@@ -26,7 +26,7 @@ public class JspController {
      * @param model 用于向视图传递数据
      * @return 视图名称"hello"
      */
-    @GetMapping("/hello.jsp")  // 映射GET请求到/hello路径
+    @GetMapping("/hello")  // 映射GET请求到/hello路径
     public String hello(
             @RequestParam(name = "name", defaultValue = "访客") String name,  // 请求参数name，默认值为"访客"
             Model model) {  // Model对象用于向视图传递数据
@@ -43,16 +43,16 @@ public class JspController {
         return "hello";
     }
 
-    @GetMapping("/1.jsp")
+    @GetMapping("/1")
     public String i1(Model model) {
         return "1";
     }
 
-    @GetMapping("/2.jsp")
+    @GetMapping("/2")
     public String i2(Model model) {
         return "2";
     }
-    @GetMapping("/2-1.jsp")
+    @GetMapping("/2-1")
     public String i2_1(
             @RequestParam(name = "name", defaultValue = "访客") String name,
             @RequestParam(name = "n", defaultValue = "2") int n,
@@ -64,7 +64,7 @@ public class JspController {
         return "2-1";
     }
 
-    @GetMapping("/3.jsp")
+    @GetMapping("/3")
     public String i3(Model model) {
         return "3";
     }
