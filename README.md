@@ -12,7 +12,7 @@
 
 （以 **1.jsp** 为例）
 ```bash
-    @GetMapping("/1")
+    @GetMapping("/1.jsp")
     # 处理根路径"/1"的GET请求
     public String index(Model model) {
       # model 用于向视图传递数据

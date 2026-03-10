@@ -7,19 +7,19 @@
 <h2>导航菜单</h2>
 <p>点击下面的按钮跳转到对应的子地址：</p>
 
-<form action="hello" method="get" style="display: inline;">
+<form action="hello.jsp" method="get" style="display: inline;">
     <button type="submit">跳转到 /hello</button>
 </form>
 
-<form action="1" method="get" style="display: inline;">
+<form action="1.jsp" method="get" style="display: inline;">
     <button type="submit">跳转到 /1</button>
 </form>
 
-<form action="2" method="get" style="display: inline;">
+<form action="2.jsp" method="get" style="display: inline;">
     <button type="submit">跳转到 /2</button>
 </form>
 
-<form action="3" method="get" style="display: inline;">
+<form action="3.jsp" method="get" style="display: inline;">
     <button type="submit">跳转到 /3</button>
 </form>
 

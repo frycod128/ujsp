@@ -6,7 +6,7 @@
     <title>素数查询输入页面</title>
 </head>
 <body>
-<form action="2-1" method="get">
+<form action="2-1.jsp" method="get">
     姓名：<input type="text" name="name"><br>
     起始值n：<input type="number" name="n" min="2"><br>
     连续个数m：<input type="number" name="m" min="1"><br>
