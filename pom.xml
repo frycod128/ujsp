@@ -8,11 +8,11 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.5.11</version>
+        <version>3.5.9</version>
         <relativePath/>
     </parent>
 
-    <!-- 定义项目的基本信息 -->
+    <!-- 项目的基本信息 -->
     <groupId>fry</groupId>  <!-- 项目组织ID -->
     <artifactId>ujsp</artifactId>  <!-- 项目唯一标识ID -->
     <version>0.0.1-SNAPSHOT</version>  <!-- 项目版本号 -->
