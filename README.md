@@ -1,6 +1,6 @@
 ## 在 Spring Boot 中使用 JSP
 
-项目中存在示例用于参考
+项目中存在示例用于参考详情查看 `markdown/项目概述.md`
 
 在 `src/main/webapp/WEB-INF/jsp` 路径创建 **jsp** 项目
 
