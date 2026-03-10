@@ -44,11 +44,20 @@ public class JspController {
         return "hello";
     }
 
+    /*
+    在JSP页面中完成下列算法：
+    1、随机产生1百万个1~6的整数，分别统计1~6出现的次数。
+    2、输出6~100000中的全部自幕数。
+    */
     @GetMapping("/1")
     public String i1(Model model) {
         return "1";
     }
 
+    /*
+    创建两个jsp页面，第一个页面输入姓名、整数n和m，提交到第二个页面。
+    第二个页输出姓名，以及从n开始的m个连续的素数。
+    */
     @GetMapping("/2")
     public String i2(Model model) {
         return "2";
@@ -65,6 +74,9 @@ public class JspController {
         return "2-1";
     }
 
+    /*
+    等待中，暂时是占位预留。
+    */
     @GetMapping("/3")
     public String i3(Model model) {
         return "3";
