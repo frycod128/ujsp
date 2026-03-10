@@ -1,26 +1,16 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
 <html>
 <head>
-    <title>页面2</title>
+    <meta charset="UTF-8">
+    <title>素数查询输入页面</title>
 </head>
 <body>
-<h2>这是页面 2</h2>
-<p>当前地址: /2</p>
-
-<form action="../" method="get" style="display: inline;">
-    <button type="submit">返回首页</button>
+<form action="2-1" method="get">
+    姓名：<input type="text" name="name"><br>
+    起始值n：<input type="number" name="n" min="2"><br>
+    连续个数m：<input type="number" name="m" min="1"><br>
+    <input type="submit" value="提交">
 </form>
-
-<form action="../1" method="get" style="display: inline;">
-    <button type="submit">跳转到 /1</button>
-</form>
-
-<form action="../3" method="get" style="display: inline;">
-    <button type="submit">跳转到 /3</button>
-</form>
-
-<hr>
-<p>页面2的内容示例</p>
-<p>当前时间: <%= new java.util.Date() %></p>
 </body>
 </html>
