@@ -3,6 +3,7 @@ package fry.ujsp.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import java.time.LocalDateTime;
@@ -52,7 +53,7 @@ public class JspController {
     public String i2(Model model) {
         return "2";
     }
-    @GetMapping("/2-1")
+    @PostMapping("/2-1")
     public String i2_1(
             @RequestParam(name = "name", defaultValue = "访客") String name,
             @RequestParam(name = "n", defaultValue = "2") int n,

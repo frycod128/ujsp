@@ -21,3 +21,18 @@
     }
 ```
 以视图方式来运行 **jsp** 文件
+
+在上文函数的传参中写形如：
+```bash
+    @RequestParam(name = "name", defaultValue = "访客") String name,
+    @RequestParam(name = "n", defaultValue = "2") int n,
+    ......
+```
+来传递GET方法参数
+（参考 **index.jsp** 与 **Hello.jsp**）
+
+变更 **@GetMapping("")**
+为 **@PostMapping("")** 字样
+
+则接受POST方法参数，内参数名传递如上
+（参考 **2.jsp** 与 **2-1.jsp**）
