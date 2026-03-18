@@ -23,6 +23,10 @@
     <button type="submit">跳转到 /3</button>
 </form>
 
+<form action="ex2/inputGuess.jsp" method="get" style="display: inline;">
+    <button type="submit">跳转到 /ex2</button>
+</form>
+
 <hr>
 <p>当前时间: <%= new java.util.Date() %></p>
 </body>
