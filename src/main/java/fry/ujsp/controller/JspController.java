@@ -51,7 +51,7 @@ public class JspController {
     */
     @GetMapping("/1")
     public String i1(Model model) {
-        return "1";
+        return "homework/1";
     }
 
     /*
@@ -60,7 +60,7 @@ public class JspController {
     */
     @GetMapping("/2")
     public String i2(Model model) {
-        return "2";
+        return "homework/2";
     }
     @PostMapping("/2-1")
     public String i2_1(
@@ -71,7 +71,7 @@ public class JspController {
         model.addAttribute("name", name);
         model.addAttribute("n", n);
         model.addAttribute("m", m);
-        return "2-1";
+        return "homework/2-1";
     }
 
     /*
@@ -79,6 +79,6 @@ public class JspController {
     */
     @GetMapping("/3")
     public String i3(Model model) {
-        return "3";
+        return "homework/3";
     }
 }
