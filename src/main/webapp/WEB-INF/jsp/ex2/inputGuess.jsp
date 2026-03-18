@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,7 +14,7 @@
 
     // 将随机数存入session
     session.setAttribute("targetNumber", randomNumber);
-    out.print(randomNumber);
+    //out.print(randomNumber);
 
     // 初始化猜测次数为0
     session.setAttribute("guessCount", 0);
