@@ -23,6 +23,10 @@
     <button type="submit">跳转到 /3</button>
 </form>
 
+<form action="ex1/index.jsp" method="get" style="display: inline;">
+    <button type="submit">跳转到 /ex1</button>
+</form>
+
 <form action="ex2/inputGuess.jsp" method="get" style="display: inline;">
     <button type="submit">跳转到 /ex2</button>
 </form>

@@ -83,6 +83,16 @@ public class JspController {
     }
 
     /*
+    实现一个页面，要求：
+    1.在页面中定义计算最大公约数的函数和最小公倍数的函数，函数使用JSP注释说明函数的功能。
+    2.定义二个整数，调用上述函数计算并输出它们的最大公约数和最小公倍数。
+    */
+    @GetMapping("/ex1/index")
+    public String ex1(Model model) {
+        return "/ex1/index";
+    }
+
+    /*
     编写三个JSP 页面inputGuess.jsp、result.jsp和success.jsp，实现猜数字游戏。具体要求如下：
     1.inputGuess.jsp
     用户请求inputGuess.jsp时，用随机函数产生一个大于等于1且小于等于100的整数。该页面同时负责将这个数字存在用户的session对象中。该页面提供表单，用户使用该表单输入自己猜测的整数，并提交给result.jsp页面。
