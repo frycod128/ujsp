@@ -5,30 +5,32 @@
 </head>
 <body>
 <h2>导航菜单</h2>
-<p>点击下面的按钮跳转到对应的子地址：</p>
 
-<form action="hello.jsp" method="get" style="display: inline;">
-    <button type="submit">跳转到 /hello</button>
-</form>
-
+<!-- Homework 区域 -->
+<h3>Homework</h3>
 <form action="1.jsp" method="get" style="display: inline;">
     <button type="submit">跳转到 /1</button>
 </form>
-
 <form action="2.jsp" method="get" style="display: inline;">
     <button type="submit">跳转到 /2</button>
 </form>
-
 <form action="3.jsp" method="get" style="display: inline;">
     <button type="submit">跳转到 /3</button>
 </form>
 
+<!-- Experiment 区域 -->
+<h3>Experiment</h3>
 <form action="ex1/index.jsp" method="get" style="display: inline;">
     <button type="submit">跳转到 /ex1</button>
 </form>
-
 <form action="ex2/inputGuess.jsp" method="get" style="display: inline;">
     <button type="submit">跳转到 /ex2</button>
+</form>
+
+<!-- Other 区域 -->
+<h3>Other</h3>
+<form action="hello.jsp" method="get" style="display: inline;">
+    <button type="submit">跳转到 /hello</button>
 </form>
 
 <hr>
