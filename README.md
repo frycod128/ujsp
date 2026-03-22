@@ -4,9 +4,9 @@
 
 在 `src/main/webapp/WEB-INF/jsp` 路径创建 **jsp** 项目
 
-后在 `src/main/java/fry/ujsp/controller/JspController.java` 文件
+后在 `src/main/java/fry/ujsp/controller/` 路径创建 **控制器**
 
-内 `public class JspController` 类内写入如
+在内 **主类** 中写入如：
 
 （以 **1.jsp** 为例）
 ```jsp
