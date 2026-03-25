@@ -37,3 +37,5 @@
 使用`import jakarta.servlet.http.HttpServletRequest;`包
 
 来使用原生 **servlet** 的各种方法（spring boot 的控制器逻辑完全可替）
+
+具体实现参考 **Ex3** 部分的控制器
