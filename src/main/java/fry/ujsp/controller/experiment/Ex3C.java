@@ -14,9 +14,12 @@ import java.util.List;
 @Controller
 @RequestMapping("/ex3")
 public class Ex3C {
-
-    /**
-     * 判断整数的各位数字之和是否等于6
+    /*
+     1.	通过index.jsp的表单向servlet提交用户名和二个正整数（比如10和10000）。
+     2.	在servlet（名称自定义）中定义一个方法（方法名自定义），用于判断整数的各个数字之和是否等于6。
+     3.	在上述servlet中获取提交的信息：
+        （1）若用户名为空或值有错，则将信息“请输入正确的用户名或整数！”转发到index.jsp页面；
+        （2）若输入正确，则在该servlet中计算出这二个数之间所有的整数各个数字之和等于6的数，然后转发到show.jsp页面，输出用户名以及数字之和等于6的全部整数。
      */
     private boolean isDigitSumEqualsSix(int number) {
         int n = Math.abs(number);
@@ -76,9 +79,6 @@ public class Ex3C {
         }
     }
 
-    /**
-     * 校验字符串是否为有效的整数
-     */
     private boolean isValidInteger(String str) {
         if (str == null || str.trim().isEmpty()) {
             return true;
