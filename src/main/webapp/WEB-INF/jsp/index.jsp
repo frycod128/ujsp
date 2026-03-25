@@ -26,6 +26,9 @@
 <form action="ex2/inputGuess.jsp" method="get" style="display: inline;">
     <button type="submit">跳转到 /ex2</button>
 </form>
+<form action="ex3/index.jsp" method="get" style="display: inline;">
+    <button type="submit">跳转到 /ex3</button>
+</form>
 
 <!-- Other 区域 -->
 <h3>Other</h3>

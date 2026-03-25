@@ -33,3 +33,7 @@
 则接受POST方法参数，内参数名传递如上 （参考 **2.jsp** 与 **2-1.jsp**）
 
 同时接受多种参数较为复杂,具体参考 `markdown/多参数.md`
+
+使用`import jakarta.servlet.http.HttpServletRequest;`包
+
+来使用原生 **servlet** 的各种方法（spring boot 的控制器逻辑完全可替）
