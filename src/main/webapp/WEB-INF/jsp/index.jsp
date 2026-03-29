@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>JSP导航</title>
+    <title>JSP项目</title>
 </head>
 <body>
 <h2>导航菜单</h2>
@@ -9,25 +9,25 @@
 <!-- Homework 区域 -->
 <h3>Homework</h3>
 <form action="homework/1.jsp" method="get" style="display: inline;">
-    <button type="submit">跳转到 /1</button>
+    <button type="submit">跳转到 作业1</button>
 </form>
 <form action="homework/2.jsp" method="get" style="display: inline;">
-    <button type="submit">跳转到 /2</button>
+    <button type="submit">跳转到 作业2</button>
 </form>
 <form action="homework/3.jsp" method="get" style="display: inline;">
-    <button type="submit">跳转到 /3</button>
+    <button type="submit">跳转到 示例3</button>
 </form>
 
 <!-- Experiment 区域 -->
 <h3>Experiment</h3>
 <form action="ex1/index.jsp" method="get" style="display: inline;">
-    <button type="submit">跳转到 /ex1</button>
+    <button type="submit">跳转到 实验1</button>
 </form>
 <form action="ex2/inputGuess.jsp" method="get" style="display: inline;">
-    <button type="submit">跳转到 /ex2</button>
+    <button type="submit">跳转到 实验2</button>
 </form>
 <form action="ex3/index.jsp" method="get" style="display: inline;">
-    <button type="submit">跳转到 /ex3</button>
+    <button type="submit">跳转到 实验3</button>
 </form>
 
 <!-- Other 区域 -->
@@ -36,7 +36,7 @@
     <button type="submit">跳转到 GitHub 仓库</button>
 </form>
 <form action="hello.jsp" method="get" style="display: inline;">
-    <button type="submit">跳转到 /hello</button>
+    <button type="submit">跳转到 传参示例</button>
 </form>
 
 <hr>
