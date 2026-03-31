@@ -1,0 +1,3 @@
+[submodule "Tjsp"]
+	path = Tjsp
+	url = https://github.com/frycod128/Tjsp.git
