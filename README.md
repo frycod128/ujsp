@@ -39,3 +39,19 @@
 来使用原生 **servlet** 的各种方法（spring boot 的控制器逻辑完全可替）
 
 具体实现参考 **Ex3** 部分的控制器
+
+---
+
+## 其他资源
+
+内嵌：[Tjsp](https://github.com/frycod128/Tjsp) 项目作为原生Tomcat对照
+
+启动时选择 `T-ser` 启动配置即可直接下载并启动
+
+---
+
+## 小工具
+
+如果需要大量复制整合项目内文本
+
+不妨看看：[filecollector](https://github.com/frycod128/filecollector)
