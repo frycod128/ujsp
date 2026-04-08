@@ -32,6 +32,9 @@
 
 <!-- AIPracticeTask 区域 -->
 <h3>AI practice task</h3>
+<form action="ai1/index.jsp" method="get" style="display: inline;">
+    <button type="submit">跳转到 实践1</button>
+</form>
 <form action="ai2/index.jsp" method="get" style="display: inline;">
     <button type="submit">跳转到 实践2</button>
 </form>
