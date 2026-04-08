@@ -7,7 +7,7 @@
 </head>
 <body>
 <h2>请输入杨辉三角的行数</h2>
-<form action="yanghui" method="post">
+<form action="yanghui.jsp" method="post">
     <label>行数 n (1-20):</label>
     <input type="number" name="n" min="1" max="20" required>
     <input type="submit" value="生成杨辉三角">

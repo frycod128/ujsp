@@ -20,7 +20,7 @@
     if (n == null || n <= 0 || n > 20) {
 %>
 <p>请输入1到20之间的有效整数！</p>
-<a href="index">返回重新输入</a>
+<a href="index.jsp">返回重新输入</a>
 <%
 } else {
     int[][] triangle = new int[n][];
@@ -60,6 +60,6 @@
     <p>(点击链接将在新窗口打开)</p>
 </div>
 
-<p><a href="index">返回重新输入</a></p>
+<p><a href="index.jsp">返回重新输入</a></p>
 </body>
 </html>
