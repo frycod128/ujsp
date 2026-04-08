@@ -70,6 +70,26 @@
             <version>3.1.1</version>
             <scope>provided</scope>  <!-- 作用域为provided，表示由容器提供 -->
         </dependency>
+        <!-- Servlet API (javax版本) -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>4.0.1</version>
+            <scope>provided</scope>
+        </dependency>
+        <!-- JSP API (javax版本) -->
+        <dependency>
+            <groupId>javax.servlet.jsp</groupId>
+            <artifactId>javax.servlet.jsp-api</artifactId>
+            <version>2.3.3</version>
+            <scope>provided</scope>
+        </dependency>
+        <!-- JSTL (javax版本) -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
+        </dependency>
     </dependencies>
     <!-- 构建配置 -->
     <build>
